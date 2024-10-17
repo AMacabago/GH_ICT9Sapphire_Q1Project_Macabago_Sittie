@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title> Cart </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@400&display=swap" rel="stylesheet">
+		<style type="text/css">
+			.body {
+				background-color: black;
+				font-family: "Mukta", sans-serif;
+				font-weight: 100:;
+				margin-left: 20%;
+				margin-right: 20%;
+				font-family: "Playfair Display", serif;
+  			font-optical-sizing: auto;
+  			font-weight: 100%;
+  			font-style: normal;
+  			color: white;
+			}
+			body {
+				background-image: 
+				url(https://png.pngtree.com/thumb_back/fh260/background/20220821/pngtree-shiny-wave-gold-white-background-png-free-image_1442692.jpg);
+				background-size: cover;
+				text-align: center;
+	  			
+			}
+			hr {
+				border: 5px solid gold;
+			}
+			h1 {
+				font-family: "Playwrite CU", system-ui;
+				text-align: center;
+				color: #171e52;
+			}
+			.lab {
+				font-size: 19px;
+				font-weight: 400;
+			}
+			.info,.spot,.like {
+				background-color: #332f30;
+			}
+			
+			}
+			.header{
+			padding: 5px;
+  			text-align: center;
+  			background: black;
+  			color: white;
+  			font-size: 25px;
+
+			}
+			.header {
+			overflow: hidden;
+			background-color: black;
+			padding: 20px 10px;
+			}
+			.header a:hover {
+	  		background-color: gold;
+	  		color: white;
+			}		
+			.header a.active {
+	  		color: white;
+			}
+			.header-right {
+	  		float: right;
+			}
+			.header a {
+	  		float: left;
+	  		color: white;
+			text-align: center;
+			padding: 12px;
+			text-decoration: none;
+			font-size: 18px;
+			line-height: 25px;
+			border-radius: 4px;
+			}
+			.header a.logo {
+			  font-size: 30px;
+			  font-weight: bold;
+			}
+			.header a.gs {
+				color: gold;
+				font-family: "Dancing Script", cursive;
+	  			font-optical-sizing: auto;
+	  			font-size: 35px;
+	  			font-style: normal;
+	  			color: gold;
+	  		}
+	  		.header a.about {
+	  			background-color: gold;
+	  			border-radius: 30px;
+	  		}
+	  		.cartt {
+	  			border-radius: 30px;
+	  		}
+	  		.check {
+	  			width: 100px;
+	  			height: 30px;
+	  			background-color: gold;
+	  			border-radius: 10px;
+	  		}
+	  		fieldset {
+	  			border-radius: 30px;
+	  		}
+	  		.place {
+	  			width: 200px;
+	  			height: 40px;
+	  			background-color: gold;
+	  			border-radius: 10px;
+	  		}
+
+		</style>
+
+	</head>
+	<body>
+		<div class="header">
+			<a href="#default" class="logo">Pearlshoppe</a> 
+			<a href="#default" class="gs">Goldsmith</a>
+  		<div class="header-right">
+    		<a class="active" href="#home">Home</a>
+    		<a class="products" href="#products">Products</a>
+    		<a href="#contact">Contact</a>
+    		<a class="signin" href="#signin">Services</a>
+    		<a class="about" href="#about">
+    			<img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5559842.jpg" alt="shopping cart" style="width: 30px; height: 30px" class="cartt">
+    		</a>
+    	</div>
+	</div>
+	<div class="body">
+		<form>
+		<fieldset style="color: white;" class="info">
+			<legend class="lab" style="font-weight:800;">Address</legend>
+			<label for="fname">CONTACT</label>
+			<br>
+			<input style="width: 300px;" type="text" name="fname" placeholder="Full Name">
+			<br>
+			<label for="email"></label>
+			<input style="width: 300px;" type="text" name="email" placeholder="Phone number">
+			<br>
+			<label for="uname">ADDRESS</label>
+			<br>
+			<input style="width: 300px;" type="text" name="uname" placeholder="Region/Province/City/Barangay">
+			<br>
+			<label for="pass"></label>
+			<input style="width: 300px;" type="text" name="pass" placeholder="Zip code">
+			<br>
+			<input type="submit" value="Confirm" class="check">
+
+		</fieldset>
+		<br>
+		<fieldset style="color: white;" class="spot">
+			<legend class="lab" style="font-weight: 800;"> Shopping Cart </legend>
+			<label for="Baguio">PEARL SECTION</label>
+			<br>
+			<input type="checkbox" name="Baguio">
+			<label for="Baguio">Brooch</label>
+			<br />
+
+			<input type="checkbox" name="Bohol">
+			<label for="Bohol">Bracelet</label>
+			<br />
+			<input type="checkbox" name="bora">
+			<label for="bora">Necklace</label>
+			<br>
+			<label for="Baguio">DIAMOND SECTION</label>
+			<br>
+			<input type="checkbox" name="Baguio">
+			<label for="Baguio">Brooch</label>
+			<br />
+
+			<input type="checkbox" name="Bohol">
+			<label for="Bohol">Bracelet</label>
+			<br />
+			<input type="checkbox" name="bora">
+			<label for="bora">Necklace</label>
+			<br>
+		</fieldset>
+
+		<br>
+		<fieldset style="color: white;" class="like">
+			<legend class="lab" style="font-weight:800;">Payment Methods</legend>
+		
+			<input type="radio" name="yes"> 
+			<label for="yes">APPOINTMENT</label>
+			<br>
+			<input type="text" name="fname" placeholder="dd/mm/yyyy">
+			<br>
+			<input type="radio" name="no">
+			<label for="no">GCASH</label>
+			<br>
+			<input type="radio" name="no">
+			<label for="no">PEARLBANK</label>
+			<br>
+			<input type="radio" name="no">
+			<label for="no">DEBIT/CREDIT CARD</label>
+
+		</fieldset>
+		<br>
+		<input type="submit" name="order" value="Place Order" class="place">
+	</form>
+</div>
+		
+		</form>
+	</body>
+</html>
